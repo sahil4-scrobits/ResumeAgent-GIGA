@@ -31,3 +31,39 @@ ResumeAgent-GIGA is an AI-powered resume analyzer built using **Python**, **Stre
 git clone https://github.com/your-username/ResumeAgent-GIGA.git
 cd ResumeAgent-GIGA
 
+
+## 2. Set Up the Environment
+
+**Install the required Python packages:**
+
+```bash
+pip install -r requirements.txt
+```
+
+If `requirements.txt` is missing, install the following manually:
+
+```bash
+pip install streamlit python-docx PyMuPDF google-generativeai python-dotenv
+```
+
+## 3. Add Google API Key
+
+Create a `.env` file in the root directory of the project and paste your Gemini API key like this:
+
+```env
+GOOGLE_API_KEY="YOUR_API_KEY_HERE"
+```
+
+🔑 You can generate your API key at [Google AI Studio](https://aistudio.google.com/app/apikey).
+
+⚠️ **Make sure not to commit your `.env` file to version control.**
+
+## 4. Run the Streamlit App
+
+Start the app by running:
+
+```bash
+streamlit run app.py
+```
+
+A browser window will open with the ResumeAgent-GIGA interface.

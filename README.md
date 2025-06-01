@@ -63,7 +63,7 @@ GOOGLE_API_KEY="YOUR_API_KEY_HERE"
 Start the app by running:
 
 ```bash
-streamlit run app.py
+streamlit run imgamz.py
 ```
 
 A browser window will open with the ResumeAgent-GIGA interface.

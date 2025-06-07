@@ -147,23 +147,3 @@ with tab2:
 
         st.markdown("### 🔍 AI Transcription & Translation")
         st.markdown(output)
-
-
-# # ==================== Tab 3: Speaker Info ====================
-# with tab3:
-#     st.header("🎤 Speaker Info")
-#     col1, col2 = st.columns([1, 2])
-
-#     with col1:
-#         st.image("D:\GIGA\First AI Agent\Shreya Dhurde pink Square.jpeg", caption="Speaker Photo")  # Replace with real photo or uploader
-#     with col2:
-#         st.markdown("""
-#         **Name**: Shreya Dhurde  
-#         **Role**: AI Engineer
-#         **Location**: Pune, India  
-#         **Specialties**: Generative AI,AI Agents, LLM Apps  
-#         **Talks Given**: 5+ Research & Dev Talks  
-         
-#         """)
-
-#         st.markdown("[LinkedIn Profile](https://www.linkedin.com/in/shreya-dhurde/)")  # Replace with real link
